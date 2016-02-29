@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="jp.blogspot.sassylog.camera-wrap-plugin" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+  <name>camera-wrap-plugin</name>
+  <js-module name="camera-wrap-plugin" src="www/camera-wrap-plugin.js">
+    <clobbers target="navigator.wrap" />
+  </js-module>
+</plugin>
